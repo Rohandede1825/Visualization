@@ -1,0 +1,614 @@
+/* controlling the look of the left-hand menu */
+
+body {
+   /* font: 100% Verdana, Arial, Helvetica, sans-serif; */
+   /*background: #666666; */
+   margin: 0;
+   /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+   padding: 0;
+   /*	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+   color: #000000;
+   background-color: #e9f0f4;
+}
+
+
+.about {
+   margin-left: 30px;
+   text-align: center;
+}
+
+
+.code {
+
+   background: #EEEEEE;
+}
+
+
+.menu {
+   float: left;
+   /*    height: 88%;  */
+   line-height: 110%;
+   margin-left: -30px;
+   /* border-right:1px solid #004D99; /* solid grey;  */
+   padding: 1em;
+   width: 178px;
+   /*   font-family: Helvetica, sans-serif;
+   color: #66EEEE; */
+}
+
+.menu ul {
+   list-style-type: none;
+}
+
+.menu a {
+   font-weight: bold;
+   text-decoration: none;
+   color: #006633;
+}
+
+
+.content h1 {
+   color: #000000;
+   text-align: center;
+   margin: auto;
+}
+
+
+.content h2 {
+   color: #000000;
+}
+
+.content h3 {
+   color: #006633;
+}
+
+
+
+.content li a {
+   font-weight: bold;
+   text-decoration: none;
+   color: #000000;
+
+}
+
+.content a:hover {
+   color: #4829c5;
+}
+
+
+
+.menu a:hover {
+   color: #291783;
+}
+
+.menu a:visited {
+   color: grey;
+}
+
+
+
+.about a {
+   font-weight: bold;
+   text-decoration: none;
+   color: #006633;
+}
+
+.about a:hover {
+   color: #ffCC33;
+}
+
+.about a:visited {
+   /*    color:grey; */
+}
+
+
+.text,
+.personal {
+   margin: 0px 100px 100px 200px;
+   position: absolute;
+   font-family: Helvetica, sans-serif;
+}
+
+.personal a {
+   color: #ffCC33;
+   text-decoration: none;
+}
+
+.personal a:hover {
+   color: #ffCC33;
+}
+
+.personal a:visited {
+   color: #006633;
+}
+
+
+div.header h1 {
+   margin: 0;
+   padding: 10px 0;
+}
+
+
+div.container {
+   width: 100%;
+   /* height: 100%; */
+   margin: 0px;
+   /*border:1px solid #004D99;  solid grey; */
+   line-height: 100%;
+}
+
+div.header,
+div.footer {
+   font: 100% Verdana, Arial, Helvetica, sans-serif;
+
+   padding: 0 10px 0 20px;
+   color: #ffCC33;
+
+   background: #006633;
+
+   /* border:1px solid grey; */
+}
+
+.footer a {
+   color: #ffCC33;
+}
+
+h1.header {
+   padding: 0;
+   margin: 0;
+}
+
+div.content {
+   /* margin-left:180px; */
+   /* margin-right: 720px; */
+   border-left: 1px solid #006633;
+   padding: 1em;
+   color: white;
+   position: static;
+
+}
+
+/* h1{
+   align-items: center;
+   text-align: center;
+} */
+
+.box {
+   gap: 5px;
+   /* border: 1px solid ; */
+   border-radius: 4px;
+   width: 300px;
+   height: auto;
+   margin: 15px;
+   /* margin-right: 30px; */
+   padding: 15PX;
+   /* margin-right: 280px; */
+   font-size: 15px;
+   font-weight: bold;
+   text-decoration: none;
+   /* color: rgb(0, 0, 0); */
+   color: rgb(0, 0, 0);
+   background-color: #ffffff;
+}
+
+
+/* .box li a{
+   list-style: none;
+   padding: 20px;
+   display: block;
+   background-color: #47b4ec;
+   gap: 2px;
+   margin: 3px;
+} */
+.heading {
+   @container (min-width: 180px) {
+      .faq-title {
+         display: flex;
+         justify-content: space-between;
+         font-size: 1.25rem;
+      }
+
+      .faq__icon {
+         width: 60px;
+         height: 60px;
+         background-color: #4f96e7;
+      }
+   }
+}
+
+
+/*div.header, div.footer a {
+   color: white;
+}
+
+.header, .footer a:hover {
+   color: blue;
+}
+.header, .footer a:visited {
+   color: white;
+}
+*/
+
+
+
+.contact {
+   text-align: center;
+   margin: 25px 0px 0px 400px;
+   position: absolute;
+   font-family: Helvetica, sans-serif;
+}
+
+.topnav {
+   /* margin: 10px; */
+   background-color: #47b4ec;
+   overflow: hidden;
+   padding: 20px;
+   height: 10px;
+   width: auto;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+   /* float: right;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px; */
+   /* margin-left: 20px; */
+   margin-bottom: 2px;
+   /* margin-left: 200s; */
+   /* margin: 10px; */
+   text-decoration: none;
+   padding: 30px;
+   font-size: 15px;
+   color: white;
+   text-align: center;
+
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+   /* background-color: #ddd; */
+   color: rgb(26, 133, 220);
+   font-size: 16px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+   /* background-color: #04AA6D; */
+   color: rgb(255, 255, 255);
+   font: bold;
+}
+
+.box h1 {
+   color: #2e2b2b;
+}
+
+
+
+.rightContainer {
+   border: 2px solid blue;
+   margin-left: 400px;
+   margin-top: -130px;
+}
+
+.boxes {
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+.box li :hover {
+   font-size: 14px;
+   background-color: #72c7eb;
+   color: white;
+   padding: 2px;
+}
+
+.paragraph {
+   width: 1063px;
+   border: 2px solid rgb(255, 255, 255);
+   border-radius: 4px;
+   height: 2144px;
+   position: absolute;
+   left: 409px;
+   top: 81px;
+   background-color: #ffffff;
+   color: #000000;
+
+}
+
+.heading {
+   text-align: center;
+}
+
+.logo {
+   margin-left: 18px;
+   margin-top: -17px;
+   margin-right: 20px;
+   font-size: 40px;
+   color: white;
+   font: bold;
+   height: 27px;
+   width: 75px;
+}
+
+.nav {
+   margin-top: -43px;
+   margin-left: 140px;
+   left: 2px;
+   display: flex;
+}
+
+.btn_home {
+   display: flex;
+   margin-left: 30px;
+   font-size: 30px;
+}
+
+.menu {
+   display: flexs;
+}
+
+.Mode {
+   border: 1px solid white;
+   padding: 2px 4px;
+   margin: 26px 12px;
+
+}
+
+/* .card{
+   background-color: #47b4ec;
+   padding: 20px;
+   margin: 7px;
+   display: flex;
+   color: #000000;
+   text-align: center;
+   display:inline-block;
+   text-decoration: none;
+
+
+} */
+
+
+
+.card_container {
+   max-width: 900px;
+   margin: auto;
+   /* padding: 20px; */
+   font-family: Arial, sans-serif;
+   background-color: #ffffff;
+   /* border: 1px solid #ddd; */
+   border-radius: 8px;
+
+}
+
+.section {
+   margin-bottom: 20px;
+}
+
+.section h2 {
+   color: #333;
+}
+
+.card_code {
+   background-color: #f1f1f1;
+   padding: 10px;
+   font-family: "Courier New", monospace;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   overflow-x: auto;
+   font-size: 20px;
+}
+#copyButton {
+   position: absolute;
+   /* top: 34px; */
+   right: 97px;
+   background-color: #3dacf4;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   padding: 9px 24px;
+   cursor: pointer;
+}
+
+h1 {
+   margin-top: 3px;
+}
+
+
+.dsa_container {
+   margin-left: 80px;
+   width: 866px;
+   max-width: 901px;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+}
+.dsa_head {
+   /* text-align: center; */
+   margin-top: 20px;
+   margin-left: 78px;
+   color: #333;
+}
+.concept {
+   margin-bottom: 15px;
+   padding: 10px;
+   border-left: 4px solid #4CAF50;
+   background-color: #f9f9f9;
+   border-radius: 5px;
+}
+.concept h2 {
+   margin: 0;
+   color: #4CAF50;
+}
+.concept p {
+   margin: 5px 0;
+}
+
+
+/* Style for the search box */
+.search-container {
+   position: relative;
+   width: 300px;
+   margin: 12px 5px;
+}
+#searchBox:hover{
+   border: #3dacf4;
+}
+
+#searchBox {
+   /* width: 100%; */
+   border-radius: 7px;
+   border: white;
+   position: absolute;
+   margin-top: 9px;
+   margin-left: 676px;
+   padding: 7px;
+   font-size: 16px;
+}
+
+/* Style for the suggestions box */
+.suggestions-box {
+   position: absolute;
+   /* left: 300px; */
+   /* top: 400px; */
+   width: 100%;
+   /* border: 1px solid #ddd; */
+   border-radius: 7px;
+   background-color: white;
+   max-height: 200px;
+   overflow-y: auto;
+   display: none; /* Hidden initially */
+}
+
+.suggestions-box div {
+   margin-right: 300px;
+   padding: 10px;
+   cursor: pointer;
+}
+
+.suggestions-box div:hover {
+   background-color: #f0f0f0;
+}
+
+
+
+/* Dark Mode code */
+
+
+
+/* Button Styles */
+.toggle-button {
+   margin-top: -1px;
+   padding: 10px 20px;
+   margin-left: 880px;
+   font-size: 16px;
+   cursor: pointer;
+   border: none;
+   background-color: #47b4ec;
+   color: white;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+}
+
+
+.toggle-button:hover {
+   /* background-color: #0056b3; */
+}
+
+body.dark-mode .toggle-button {
+   background-color: #333;
+   filter: invert(-1);
+   color: white;
+}
+
+body.dark-mode .topnav a.active {
+   /* background-color: #04AA6D; */
+   color: rgb(26, 133, 220);
+   font: bold;
+}
+
+body.dark-mode {
+   background-color: #1f1d1d;
+   color: #f0f0f0;
+}
+
+body.dark-mode .paragraph {
+   background-color: #3a3a3a;
+   border: #3a3a3a;
+   color: white;
+}
+
+body.dark-mode .box {
+   background-color: #3a3a3a;
+   color: white;
+
+}
+
+body.dark-mode .content li a {
+   color: white;
+}
+
+body.dark-mode .box h1 {
+   color: white;
+}
+
+body.dark-mode .topnav {
+   background-color: #333;
+   color: #f0f0f0;
+}
+
+body.dark-mode .card_container {
+   max-width: 900px;
+   margin: auto;
+   /* padding: 20px; */
+   font-family: Arial, sans-serif;
+   background-color: #3a3a3a;
+   /* border: 1px solid #ddd; */
+   border-radius: 8px;
+
+}
+
+body.dark-mode .dsa_container{
+   background-color: #3a3a3a;
+}
+
+body.dark-mode .concept{
+   color: white;
+   background-color: #494949;
+}
+body.dark-mode .dsa_head{
+   color: white;
+}
+
+body.dark-mode h1 {
+   color: white;
+   margin-top: 10px;
+   margin-bottom: 16px;
+}
+
+body.dark-mode .section h2 {
+   color: white;
+}
+
+
+body.dark-mode .card_code {
+   color: #000000;
+}
+
+body.dark-mode .box{
+   color: white;
+}
+
+
+
+
+
+
+

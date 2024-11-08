@@ -1,0 +1,444 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title> Data Structure Visualization </title>
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+
+
+
+    <div class="topnav">
+
+        <div class="logo">
+            <span>&lt;Vs/&gt;</span>
+        </div>
+        <div class="nav">
+            <a class="active" href="#home">Home</a>
+            <a href="about.html">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#help">Help</a>
+
+            <div class="search-container">
+                <input type="text" id="searchBox" placeholder="Search..." oninput="showSuggestions()">
+                <div id="suggestions" class="suggestions-box"></div>
+            </div> 
+            
+
+            
+            <button class="toggle-button" onclick="toggleMode()"><img id="modeImage" class="mode-image"
+                    src="/pics/white.svg" alt="Mode Image"></a></button>
+
+        </div>
+    </div>
+
+
+    <div class="content">
+
+
+        <div class="paragraph">
+            <div class="heading">
+                <h1>Java</h1>
+            </div>
+
+            <div class="card">
+                <div class="card_container">
+                    <!-- Basic Information Section -->
+                    <div class="section">
+                        <h2>Basic Information about Java</h2>
+                        <p>Java is a versatile, platform-independent programming language that was originally developed
+                            by Sun Microsystems in 1995. It enables developers to write code that can run on any
+                            platform that supports Java Virtual Machine (JVM), making it a "write once, run anywhere"
+                            language.</p>
+                    </div>
+
+                    <!-- Advanced Information Section -->
+                    <div class="section">
+                        <h2>Advanced Information</h2>
+                        <p>Java is known for its strong community and extensive libraries. It offers various frameworks
+                            like Spring and Hibernate for rapid development. It’s also widely used in enterprise-level
+                            applications, such as banking and large-scale e-commerce platforms, due to its scalability
+                            and reliability.</p>
+                    </div>
+
+                    <!-- Syntax Section -->
+                    <div class="section">
+                        <h2>Java Syntax</h2>
+                        <p>Java syntax is largely influenced by C and C++, but it provides a simpler object-oriented
+                            approach. Here are some basic syntax rules in Java:</p>
+                        <ul>
+                            <li>Java is case-sensitive, meaning "Variable" and "variable" are different identifiers.
+                            </li>
+                            <li>Every Java application starts with a class definition, and the `main` method serves as
+                                the entry point.</li>
+                            <li>Each statement ends with a semicolon `;`.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Basic Java Code Section -->
+                    <div class="section">
+                        <h2>Basic Java Code Example</h2>
+                        <div class="card_code">
+                            <button id="copyButton">Copy</button>
+                            <pre id="codeBlock">
+ public class HelloWorld {
+ public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+ }
+</pre>
+
+
+                        </div>
+                        <p>This code defines a simple Java program that prints "Hello, World!" to the console. The
+                            `main` method is the entry point of any Java application.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <h2 class="dsa_head">Java Data Structures & Algorithms Learning Path</h2>
+
+            <div class="dsa_container">
+
+                <div class="concept">
+                    <h2>1. Core Java Syntax & Object-Oriented Principles</h2>
+                    <p>Understanding Java basics is essential: classes, objects, inheritance, polymorphism,
+                        encapsulation,
+                        and abstraction.</p>
+                </div>
+
+                <div class="concept">
+                    <h2>2. Complexity Analysis</h2>
+                    <p>Learn Big-O notation to analyze the time and space complexity of algorithms, helping you choose
+                        efficient solutions.</p>
+                </div>
+
+                <div class="concept">
+                    <h2>3. Basic Data Structures</h2>
+                    <p>Master fundamental data structures like arrays, linked lists, stacks, and queues. These are
+                        foundational for more complex structures.</p>
+                </div>
+
+                <div class="concept">
+                    <h2>4. Trees and Graphs</h2>
+                    <p>Study binary trees, binary search trees, and graphs. Understanding traversal techniques (DFS,
+                        BFS) is
+                        crucial.</p>
+                </div>
+
+                <div class="concept">
+                    <h2>5. Hashing & Hash Tables</h2>
+                    <p>Learn about hash functions, hash maps, and sets, which are essential for solving problems
+                        efficiently
+                        with constant-time access.</p>
+                </div>
+
+                <div class="concept">
+                    <h2>6. Sorting and Searching Algorithms</h2>
+                    <p>Familiarize yourself with algorithms like quicksort, mergesort, binary search, and their
+                        applications
+                        in problem-solving.</p>
+                </div>
+
+                <div class="concept">
+                    <h2>7. Recursion & Dynamic Programming</h2>
+                    <p>Recursive problem-solving and dynamic programming techniques like memoization and tabulation are
+                        vital for complex algorithms.</p>
+                </div>
+
+                <div class="concept">
+                    <h2>8. Advanced Data Structures</h2>
+                    <p>Learn about heaps, tries, segment trees, and other advanced structures that can improve
+                        performance
+                        on specific problems.</p>
+                </div>
+
+                <div class="concept">
+                    <h2>9. Problem-Solving Techniques</h2>
+                    <p>Practice common approaches such as the sliding window technique, two-pointer technique, and
+                        divide
+                        and conquer.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="boxes">
+
+            <div class="box">
+                <h1 > Basics </h1>
+
+                <ul>
+                    <li> <a href="StackArray.html">Stack: Array Implementation</a> </li>
+                    <li><a href="StackLL.html">Stack: Linked List Implementation</a> </li>
+                    <li> <a href="QueueArray.html">Queues: Array Implementation</a> </li>
+                    <li> <a href="QueueLL.html">Queues: Linked List Implementation</a> </li>
+                    <li> Lists: Array Implementation (available in <a href="java/visualization.html">java</a> version)
+                    </li>
+                    <li> Lists: Linked List Implementation (available in <a href="java/visualization.html">java</a>
+                        version)
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div class="box">
+
+                <h1 >Recursion / Dynamic Programming </h1>
+                <ul>
+                    <li> <a href="RecFact.html">Factorial</a> </li>
+                    <li><a href="RecReverse.html">Reversing a String</a> </li>
+                    <li><a href="ecQueens.html">N-Queens Problem</a> </li>
+                    <li> <a href="DPFib.html">Calculating nth Fibonacci number</a></li>
+                    <li> <a href="PChange.html">Making Change</a></li>
+                    <li> <a href="DPLCS.html">Longest Common Subsequence</a></li>
+                </ul>
+
+            </div>
+
+            <div class="box">
+                <h1 >Tree</h1>
+                <ul>
+                    <li> <a href="Search.html">Binary and Linear Search (of sorted list)</a> </li>
+                    <li> <a href="BST.html">Binary Search Trees</a> </li>
+                    <li> <a href="AVLtree.html">AVL Trees (Balanced binary search trees)</a> </li>
+                    <li> <a href="RedBlack.html">Red-Black Trees</a> </li>
+                    <li> <a href="SplayTree.html">Splay Trees</a> </li>
+                    <li> <a href="OpenHash.html">Open Hash Tables (Closed Addressing)</a> </li>
+                    <li> <a href="ClosedHash.html">Closed Hash Tables (Open Addressing)</a> </li>
+                    <li> <a href="ClosedHashBucket.html">Closed Hash Tables, using buckets</a> </li>
+                    <li> <a href="Trie.html">Trie (Prefix Tree, 26-ary Tree)</a> </li>
+                    <li> <a href="RadixTree.html">Radix Tree (Compact Trie)</a> </li>
+                    <li> <a href="TST.html">Ternary Search Tree (Trie with BST of children)</a> </li>
+                    <li> <a href="BTree.html">B Trees</a></li>
+                    <li> <a href="BPlusTree.html">B+ Trees</a></li>
+                </ul>
+            </div>
+
+            <div class="box">
+
+
+                <h1>Sorting</h1>
+                <ul>
+                    <ul>
+                        <li> <a href="ComparisonSort.html">Comparison Sorting</a>
+                        <li> Bubble Sort </li>
+                        <li> Selection Sort </li>
+                        <li> Insertion Sort</li>
+                        <li> Shell Sort </li>
+                        <li> Merge Sort </li>
+                        <li> Quck Sort </li>
+                    </ul>
+                </ul>
+            </div>
+
+
+
+            <div class="box">
+                <h1 >Sort</h1>
+                <ul>
+                    <li> <a href="BucketSort.html">Bucket Sort</a> </li>
+                    <li> <a href="CountingSort.html">Counting Sort</a> </li>
+                    <li> <a href="RadixSort.html">Radix Sort</a> </li>
+                    <li> <a href="HeapSort.html">Heap Sort</a> </li>
+                </ul>
+            </div>
+
+
+            <div class="box">
+                <h1 > Heap-like Data Structures </h1>
+                <ul>
+                    <li> <a href="Heap.html">Heaps</a> </li>
+                    <li> <a href="BinomialQueue.html">Binomial Queues</a> </li>
+                    <li> <a href="FibonacciHeap.html">Fibonacci Heaps</a> </li>
+                    <li> <a href="LeftistHeap.html">Leftist Heaps</a> </li>
+                    <li> <a href="SkewHeap.html">Skew Heaps</a> </li>
+                </ul>
+            </div>
+
+            <div class="box">
+
+                <h1 > Graph Algorithms </h1>
+                <ul>
+                    <li> <a href="BFS.html">Breadth-First Search</a> </li>
+                    <li> <a href="DFS.html">Depth-First Search</a> </li>
+                    <li> <a href="ConnectedComponent.html">Connected Components</a> </li>
+                    <li> <a href="Dijkstra.html">Dijkstra's Shortest Path</a> </li>
+                    <li> <a href="Prim.html">Prim's Minimum Cost Spanning Tree</a> </li>
+                    <li> <a href="TopoSortIndegree.html">Topological Sort (Using Indegree array) </a> </li>
+                    <li> <a href="TopoSortDFS.html">Topological Sort (Using DFS) </a> </li>
+                    <li> <a href="Floyd.html">Floyd-Warshall (all pairs shortest paths)</a> </li>
+                    <li> <a href="Kruskal.html">Kruskal Minimum Cost Spanning Tree Algorithm</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="box">
+
+                <h1 > Geometric Algorithms</h1>
+
+                <!-- <li> B-Trees -->
+
+                <ul>
+
+                    <li> <a href="RotateScale2D.html">2D Rotation and Scale Matrices</a> </li>
+                    <li> <a href="RotateTranslate2D.html">2D Rotation and Translation Matrices</a> </li>
+                    <li> <a href="ChangingCoordinates2D.html">2D Changing Coordinate Systems</a> </li>
+                    <li> <a href="RotateScale3D.html">3D Rotation and Scale Matrices</a> </li>
+                    <li> <a href="ChangingCoordinates3D.html">3D Changing Coordinate Systems</a> </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="box">
+
+                <h1 > Others ... </h1>
+
+                <!-- <li> B-Trees -->
+
+                <ul>
+
+                    <li> <a href="DisjointSets.html">Disjoint Sets</a> </li>
+                    <li> Huffman Coding (available in <a href="java/visualization.html">java</a> version) </li>
+
+                </ul>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <div class="footer">Copyright 2024 <a href="http://www.cs.usfca.edu/galgles">Rohan,Rushi </a> </div>
+
+    </div>
+
+    <script>
+
+const content = [
+    "Home",
+    "About Us",
+    "Services",
+    "Contact Us",
+    "Blog",
+    "Portfolio",
+    "Careers",
+    "FAQ",
+    "Testimonials",
+    "Privacy Policy",
+    "Terms of Service",
+    "Product 1",
+    "Product 2",
+    "Product 3"
+];
+
+function showSuggestions() {
+    const input = document.getElementById('searchBox').value.toLowerCase();
+    const suggestionsBox = document.getElementById('suggestions');
+    
+    // Clear previous suggestions
+    suggestionsBox.innerHTML = '';
+
+    if (input.length === 0) {
+        suggestionsBox.style.display = 'none';
+        return;
+    }
+
+    // Filter content array based on input
+    const filteredContent = content.filter(item => item.toLowerCase().includes(input));
+
+    // Display filtered suggestions
+    if (filteredContent.length > 0) {
+        suggestionsBox.style.display = 'block';
+        filteredContent.forEach(item => {
+            const suggestionItem = document.createElement('div');
+            suggestionItem.textContent = item;
+            suggestionItem.onclick = () => {
+                document.getElementById('searchBox').value = item; // Set input value
+                suggestionsBox.style.display = 'none'; // Hide suggestions
+                // Optional: Redirect or perform other actions based on selected item
+            };
+            suggestionsBox.appendChild(suggestionItem);
+        });
+    } else {
+        suggestionsBox.style.display = 'none';
+    }
+}
+        
+
+        document.getElementById('copyButton').addEventListener('click', function () {
+            const codeBlock = document.getElementById('codeBlock');
+            const textArea = document.createElement('textarea');
+            textArea.value = codeBlock.textContent;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+        });
+
+
+        function toggleMode() {
+            document.body.classList.toggle("dark-mode");
+            const img = document.getElementById("modeImage");
+            if (document.body.classList.contains("dark-mode")) {
+                img.src = "/pics/white.svg"; // Path to black version of the image
+            }
+            else {
+                img.src = "/pics/light-svgrepo-com.svg"; // Path to black version of the image
+            }
+
+           
+        }
+
+
+
+        function toggle(){
+            const currentMode = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
+            const newMode = currentMode === 'dark' ? 'light' : 'dark';
+            if(currentMode == 'dark'){
+                const newMode = 'dark'
+            }
+
+           
+            document.body.classList.toggle('dark-mode', newMode === 'dark');
+            // Save the mode in localStorage
+            localStorage.setItem('theme', newMode);
+        }
+
+
+
+        function applySavedMode() {
+            const savedMode = localStorage.getItem('theme');
+            if (savedMode === 'light') {
+                document.body.classList.add('dark-mode');
+            } else {
+                document.body.classList.remove('dark-mode');
+            }
+
+       
+        }
+
+
+
+        // Run the function to apply saved mode when the page loads
+        window.onload = applySavedMode;
+
+        toggle()
+
+    </script>
+
+</body>
+
+</html>
